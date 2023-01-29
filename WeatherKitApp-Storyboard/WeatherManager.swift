@@ -14,18 +14,42 @@ import Network
 import WidgetKit
 
 class WeatherManager {
-    var locationManager = LocationManager()
+    private let notificationCenter = NotificationCenter.default
     private let monitor = NWPathMonitor()
+    let locationManager = LocationManager()
+    
+    var weather: Weather? {
+        didSet{
+            print("didset")
+               notificationCenter.post(name: .weatherHasUpdate, object: weather)
 
-//    var shortenedHourWeather: [HourWeather] {
-//        if let weather {
-//            return Array(weather.hourlyForecast.filter { hourlyWeather in
-//                return hourlyWeather.date.timeIntervalSince(Date()) > 0
-//            }.prefix(24))
-//        } else {
-//            return []
-//        }
-//    }
+        }
+    }
+    
+
+    var shortenedHourWeather: [HourWeather] {
+        if let weather {
+            return Array(weather.hourlyForecast.filter { hourlyWeather in
+                return hourlyWeather.date.timeIntervalSince(Date()) > 0
+            }.prefix(24))
+        } else {
+            return []
+        }
+    }
+   
+    
+    func requestWeather() async {
+        guard let userLocation = locationManager.userLocation else {
+            print("error")
+            return }
+         do {
+             print("request")
+             let weather = try await WeatherService.shared.weather(for: userLocation)
+             self.weather = weather
+         } catch {
+             print("\(error.localizedDescription)")
+         }
+    }
     
     
     func requestWeatherForCurrentLocation() async -> Weather? {

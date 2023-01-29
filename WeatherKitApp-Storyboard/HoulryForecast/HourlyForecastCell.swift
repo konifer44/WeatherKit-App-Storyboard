@@ -13,8 +13,5 @@ class HourlyForecastCell: UICollectionViewCell{
     @IBOutlet weak var weatherSymbol: UIImageView!
     @IBOutlet weak var temperatureLabel: UILabel!
     
-    
-    
-    
-    
+
 }

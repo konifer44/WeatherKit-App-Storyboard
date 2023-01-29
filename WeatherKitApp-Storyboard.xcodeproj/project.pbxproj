@@ -16,7 +16,10 @@
 		F94B07C92975555500FA70CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F94B07C72975555500FA70CE /* Main.storyboard */; };
 		F94B07CB2975555600FA70CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F94B07CA2975555600FA70CE /* Assets.xcassets */; };
 		F94B07CE2975555600FA70CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F94B07CC2975555600FA70CE /* LaunchScreen.storyboard */; };
+		F9BDA2692979BE99002DB398 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BDA2682979BE99002DB398 /* UIImageExtension.swift */; };
+		F9BDA26B297D6F88002DB398 /* NotificationCenterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BDA26A297D6F88002DB398 /* NotificationCenterExtension.swift */; };
 		F9D38F1E2977165D003EBC34 /* HourlyForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D38F1D2977165D003EBC34 /* HourlyForecast.swift */; };
+		F9D38F202978A832003EBC34 /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D38F1F2978A832003EBC34 /* DoubleExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +35,10 @@
 		F94B07CA2975555600FA70CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F94B07CD2975555600FA70CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F94B07CF2975555600FA70CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9BDA2682979BE99002DB398 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		F9BDA26A297D6F88002DB398 /* NotificationCenterExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterExtension.swift; sourceTree = "<group>"; };
 		F9D38F1D2977165D003EBC34 /* HourlyForecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyForecast.swift; sourceTree = "<group>"; };
+		F9D38F1F2978A832003EBC34 /* DoubleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,9 @@
 				F926E03A29757AED00952280 /* WeatherManager.swift */,
 				F926E038297573DC00952280 /* LocationManager.swift */,
 				F94B07C72975555500FA70CE /* Main.storyboard */,
+				F9BDA2682979BE99002DB398 /* UIImageExtension.swift */,
+				F9D38F1F2978A832003EBC34 /* DoubleExtension.swift */,
+				F9BDA26A297D6F88002DB398 /* NotificationCenterExtension.swift */,
 				F94B07CA2975555600FA70CE /* Assets.xcassets */,
 				F94B07CC2975555600FA70CE /* LaunchScreen.storyboard */,
 				F94B07CF2975555600FA70CE /* Info.plist */,
@@ -160,10 +169,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9D38F202978A832003EBC34 /* DoubleExtension.swift in Sources */,
 				F9D38F1E2977165D003EBC34 /* HourlyForecast.swift in Sources */,
 				F926E039297573DC00952280 /* LocationManager.swift in Sources */,
 				F94B07C62975555500FA70CE /* ViewController.swift in Sources */,
 				F926E03B29757AED00952280 /* WeatherManager.swift in Sources */,
+				F9BDA26B297D6F88002DB398 /* NotificationCenterExtension.swift in Sources */,
+				F9BDA2692979BE99002DB398 /* UIImageExtension.swift in Sources */,
 				F926E0602976F1BB00952280 /* HourlyForecastCell.swift in Sources */,
 				F94B07C22975555500FA70CE /* AppDelegate.swift in Sources */,
 				F94B07C42975555500FA70CE /* SceneDelegate.swift in Sources */,
