@@ -20,6 +20,9 @@
 		F9BDA26B297D6F88002DB398 /* NotificationCenterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BDA26A297D6F88002DB398 /* NotificationCenterExtension.swift */; };
 		F9D38F1E2977165D003EBC34 /* HourlyForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D38F1D2977165D003EBC34 /* HourlyForecast.swift */; };
 		F9D38F202978A832003EBC34 /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D38F1F2978A832003EBC34 /* DoubleExtension.swift */; };
+		F9EF23BB2987CF6C00E3ED89 /* WeeklyForecastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EF23BA2987CF6C00E3ED89 /* WeeklyForecastCell.swift */; };
+		F9EF23BD2987D53E00E3ED89 /* WeeklyForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EF23BC2987D53E00E3ED89 /* WeeklyForecast.swift */; };
+		F9EF23BF2987E23B00E3ED89 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EF23BE2987E23B00E3ED89 /* DateExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +42,9 @@
 		F9BDA26A297D6F88002DB398 /* NotificationCenterExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterExtension.swift; sourceTree = "<group>"; };
 		F9D38F1D2977165D003EBC34 /* HourlyForecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyForecast.swift; sourceTree = "<group>"; };
 		F9D38F1F2978A832003EBC34 /* DoubleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
+		F9EF23BA2987CF6C00E3ED89 /* WeeklyForecastCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WeeklyForecastCell.swift; path = "WeatherKitApp-Storyboard/WeeklyForecastCell.swift"; sourceTree = SOURCE_ROOT; };
+		F9EF23BC2987D53E00E3ED89 /* WeeklyForecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyForecast.swift; sourceTree = "<group>"; };
+		F9EF23BE2987E23B00E3ED89 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,17 +91,44 @@
 				F94B07C32975555500FA70CE /* SceneDelegate.swift */,
 				F94B07C52975555500FA70CE /* ViewController.swift */,
 				F926E0612976F1C200952280 /* HoulryForecast */,
-				F926E03A29757AED00952280 /* WeatherManager.swift */,
-				F926E038297573DC00952280 /* LocationManager.swift */,
+				F9EF23B52987CC0500E3ED89 /* WeeklyForecast */,
 				F94B07C72975555500FA70CE /* Main.storyboard */,
-				F9BDA2682979BE99002DB398 /* UIImageExtension.swift */,
-				F9D38F1F2978A832003EBC34 /* DoubleExtension.swift */,
-				F9BDA26A297D6F88002DB398 /* NotificationCenterExtension.swift */,
+				F9EF23BE2987E23B00E3ED89 /* DateExtension.swift */,
+				F9EF23B92987CD4A00E3ED89 /* Managers */,
+				F9EF23B82987CD3400E3ED89 /* SupportFiles */,
 				F94B07CA2975555600FA70CE /* Assets.xcassets */,
 				F94B07CC2975555600FA70CE /* LaunchScreen.storyboard */,
 				F94B07CF2975555600FA70CE /* Info.plist */,
 			);
 			path = "WeatherKitApp-Storyboard";
+			sourceTree = "<group>";
+		};
+		F9EF23B52987CC0500E3ED89 /* WeeklyForecast */ = {
+			isa = PBXGroup;
+			children = (
+				F9EF23BA2987CF6C00E3ED89 /* WeeklyForecastCell.swift */,
+				F9EF23BC2987D53E00E3ED89 /* WeeklyForecast.swift */,
+			);
+			path = WeeklyForecast;
+			sourceTree = "<group>";
+		};
+		F9EF23B82987CD3400E3ED89 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F9BDA2682979BE99002DB398 /* UIImageExtension.swift */,
+				F9D38F1F2978A832003EBC34 /* DoubleExtension.swift */,
+				F9BDA26A297D6F88002DB398 /* NotificationCenterExtension.swift */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		F9EF23B92987CD4A00E3ED89 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				F926E03A29757AED00952280 /* WeatherManager.swift */,
+				F926E038297573DC00952280 /* LocationManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,11 +207,14 @@
 				F926E039297573DC00952280 /* LocationManager.swift in Sources */,
 				F94B07C62975555500FA70CE /* ViewController.swift in Sources */,
 				F926E03B29757AED00952280 /* WeatherManager.swift in Sources */,
+				F9EF23BF2987E23B00E3ED89 /* DateExtension.swift in Sources */,
 				F9BDA26B297D6F88002DB398 /* NotificationCenterExtension.swift in Sources */,
+				F9EF23BD2987D53E00E3ED89 /* WeeklyForecast.swift in Sources */,
 				F9BDA2692979BE99002DB398 /* UIImageExtension.swift in Sources */,
 				F926E0602976F1BB00952280 /* HourlyForecastCell.swift in Sources */,
 				F94B07C22975555500FA70CE /* AppDelegate.swift in Sources */,
 				F94B07C42975555500FA70CE /* SceneDelegate.swift in Sources */,
+				F9EF23BB2987CF6C00E3ED89 /* WeeklyForecastCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

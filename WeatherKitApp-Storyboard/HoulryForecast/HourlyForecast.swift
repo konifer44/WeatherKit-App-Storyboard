@@ -10,9 +10,11 @@ import UIKit
 import WeatherKit
 import NotificationCenter
 
-private let hourlyForecastCellIdentifer = "hourlyForecastCellIdentifer"
+
 
 class HourlyForecastView: UICollectionView, UICollectionViewDataSource, UICollectionViewDelegate{
+    private let hourlyForecastCellIdentifer = "hourlyForecastCellIdentifer"
+    let notificationCenter = NotificationCenter.default
     
     var weather: Weather? {
         didSet {
@@ -22,7 +24,7 @@ class HourlyForecastView: UICollectionView, UICollectionViewDataSource, UICollec
             
         }
     }
-    let notificationCenter = NotificationCenter.default
+    
     
     
     required init?(coder aDecoder: NSCoder) {
