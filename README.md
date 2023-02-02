@@ -17,7 +17,7 @@ Access to WeatherKit is included in the Apple Developer Program, which also prov
 
  <h3>Custom Temperature Bar View</h3>
   <p align="center">
-  <img src="barTesting" alt="drawing" width="600"/>
+  <img src="barTesting.gif" alt="drawing" width="600"/>
   
   ```swift
 @IBDesignable class TemperatureBarView: UIView {
