@@ -10,8 +10,9 @@ Access to WeatherKit is included in the Apple Developer Program, which also prov
 </p>
 
 <h3>UIKit vs SwiftUI</h3>
-Due to expired access to WeatherKit UIKit version displays dummy data.
-SwiftUI is also more polished
+UIKit on the left. SwiftUI on the right.<br\>
+Due to expired access to WeatherKit UIKit version displays dummy data.<br\>
+SwiftUI version is also more polished.<br\>
 Check my SwiftUI version of this App :)! https://github.com/konifer44/WeatherKit-App-SwiftUI 
 
   <p align="center">
@@ -20,8 +21,7 @@ Check my SwiftUI version of this App :)! https://github.com/konifer44/WeatherKit
 
 
  <h3>Custom Temperature Bar View</h3>
-  <p align="center">
-  <img src="barTesting.gif" alt="drawing" width="300"/>
+ Creating and testing custom temperature bar view.
   
   ```swift
 @IBDesignable class TemperatureBarView: UIView {
@@ -95,7 +95,9 @@ Check my SwiftUI version of this App :)! https://github.com/konifer44/WeatherKit
     }
 }
 ```
-</p>
+  <p align="center">
+  <img src="barTesting.gif" alt="drawing" width="300"/>
+  </p>
 
 ## Tech
   - UIKit
