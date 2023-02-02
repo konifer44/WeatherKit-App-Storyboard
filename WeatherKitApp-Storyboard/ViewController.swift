@@ -10,28 +10,23 @@ import WeatherKit
 import NotificationCenter
 
 class ViewController: UIViewController {
-    let notificationCenter = NotificationCenter.default
-    let locationManager = LocationManager()
-    let weatherManager = WeatherManager()
-    
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var cityLabel: UILabel!
     @IBOutlet weak var temperatureLabel: UILabel!
     @IBOutlet weak var conditionsLabel: UILabel!
     @IBOutlet weak var hightTemperatureLabel: UILabel!
     @IBOutlet weak var lowtemperatureLabel: UILabel!
-    
-    @IBOutlet weak var label: UILabel!
-
     @IBOutlet weak var weeklyForecastTableView: WeeklyForecastTableView!
     
+    let notificationCenter = NotificationCenter.default
+    let locationManager = LocationManager()
+    let weatherManager = WeatherManager()
     
     var weather: Weather? {
         didSet {
             refreshData()
         }
     }
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -62,7 +57,6 @@ class ViewController: UIViewController {
     
     func addNotificationObserver(){
         notificationCenter.addObserver(self, selector: #selector(weatherHasUpdate(_:)), name: .weatherHasUpdate, object: weather)
-        
     }
     
     func refreshData(){

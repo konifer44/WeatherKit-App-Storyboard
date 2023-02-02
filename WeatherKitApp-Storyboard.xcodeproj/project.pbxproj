@@ -90,11 +90,11 @@
 		F94B07C02975555500FA70CE /* WeatherKitApp-Storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				F9EF23C429891A3700E3ED89 /* TemperatureBar */,
 				F94B07C12975555500FA70CE /* AppDelegate.swift */,
 				F926E03C29757CB200952280 /* WeatherKitApp-Storyboard.entitlements */,
 				F94B07C32975555500FA70CE /* SceneDelegate.swift */,
 				F94B07C52975555500FA70CE /* ViewController.swift */,
+				F9EF23C429891A3700E3ED89 /* TemperatureBar */,
 				F926E0612976F1C200952280 /* HoulryForecast */,
 				F9EF23B52987CC0500E3ED89 /* WeeklyForecast */,
 				F94B07C72975555500FA70CE /* Main.storyboard */,

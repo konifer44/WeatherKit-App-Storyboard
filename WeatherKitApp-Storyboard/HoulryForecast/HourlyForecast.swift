@@ -21,20 +21,15 @@ class HourlyForecastView: UICollectionView, UICollectionViewDataSource, UICollec
             DispatchQueue.main.async {
                 self.reloadData()
             }
-            
         }
     }
-    
-    
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         self.dataSource = self
         self.delegate = self
-        
         notificationCenter.addObserver(self, selector: #selector(weatherHasUpdate(_:)), name: .weatherHasUpdate, object: weather)
     }
-    
     
     @objc func weatherHasUpdate(_ notification: Notification){
         let weather = notification.object as? Weather
@@ -50,7 +45,7 @@ class HourlyForecastView: UICollectionView, UICollectionViewDataSource, UICollec
             )
             return shortenedHourWeather.count
         } else {
-            return 0
+            return 8
         }
     }
     
@@ -65,15 +60,11 @@ class HourlyForecastView: UICollectionView, UICollectionViewDataSource, UICollec
             }.prefix(24)
             )
             
-           
-            
             let hourForecast = shortenedHourWeather[indexPath.row]
             cell.hourLabel.text = Calendar.current.component(.hour, from: hourForecast.date).description
             cell.weatherSymbol.image = UIImage(systemName: hourForecast.symbolName)
             cell.temperatureLabel.text = "\(hourForecast.temperature.value.roundDouble())°"
         }
-        
         return cell
     }
-    
 }

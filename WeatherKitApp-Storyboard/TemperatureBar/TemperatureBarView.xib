@@ -12,20 +12,8 @@
         <view contentMode="scaleToFill" id="iN0-l3-epB">
             <rect key="frame" x="0.0" y="0.0" width="325" height="131"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <subviews>
-                <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Xws-VK-wSd">
-                    <rect key="frame" x="0.0" y="0.0" width="325" height="131"/>
-                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                </stackView>
-            </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-            <constraints>
-                <constraint firstItem="Xws-VK-wSd" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="0cN-be-7te"/>
-                <constraint firstItem="Xws-VK-wSd" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="9ag-ID-3ES"/>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Xws-VK-wSd" secondAttribute="bottom" id="OUn-ob-yH3"/>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Xws-VK-wSd" secondAttribute="trailing" id="nf4-bU-nUS"/>
-            </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <point key="canvasLocation" x="84.732824427480907" y="-233.45070422535213"/>
         </view>

@@ -11,8 +11,6 @@ import SwiftUI
 import Combine
 
 class LocationManager: NSObject, CLLocationManagerDelegate {
-    
-    
     private let locationManager = CLLocationManager()
     private var isLocationManagerAuthorised: Bool = false
     var userLocation: CLLocation?
@@ -58,7 +56,6 @@ class LocationManager: NSObject, CLLocationManagerDelegate {
             isLocationManagerAuthorised = false
         case .restricted:
             isLocationManagerAuthorised = false
-        
         @unknown default:
             fatalError("Location Manager Authorization Status Error")
         }
