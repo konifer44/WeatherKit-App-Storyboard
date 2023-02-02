@@ -2,8 +2,8 @@ import UIKit
 
 @IBDesignable class TemperatureBarView: UIView {
     var view: UIView!
-    var size: CGFloat = 0
-    var position: CGFloat = 0
+    var size: CGFloat = 100
+    var position: CGFloat = 10
     
     override init(frame: CGRect) {
         super.init(frame: frame)

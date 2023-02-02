@@ -42,7 +42,6 @@
 		F94B07CA2975555600FA70CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F94B07CD2975555600FA70CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F94B07CF2975555600FA70CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F9A34A0E298C722600DB3B0C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F9BDA2682979BE99002DB398 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 		F9BDA26A297D6F88002DB398 /* NotificationCenterExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterExtension.swift; sourceTree = "<group>"; };
 		F9D38F1D2977165D003EBC34 /* HourlyForecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyForecast.swift; sourceTree = "<group>"; };
@@ -105,7 +104,6 @@
 				F94B07CA2975555600FA70CE /* Assets.xcassets */,
 				F94B07CC2975555600FA70CE /* LaunchScreen.storyboard */,
 				F94B07CF2975555600FA70CE /* Info.plist */,
-				F9A34A0E298C722600DB3B0C /* README.md */,
 			);
 			path = "WeatherKitApp-Storyboard";
 			sourceTree = "<group>";
