@@ -9,7 +9,7 @@ Access to WeatherKit is included in the Apple Developer Program, which also prov
   <img src="mainStoryboard.png" alt="drawing" width="600"/>
 </p>
 
- <h3>Testing on device</h3>
+ <h3>Testing on device with mock data due to ended access to WeatherKit</h3>
   <p align="center">
   <img src="iPhoneView.PNG" alt="drawing" width="300"/>
 </p>
