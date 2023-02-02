@@ -10,6 +10,8 @@
 		F926E039297573DC00952280 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F926E038297573DC00952280 /* LocationManager.swift */; };
 		F926E03B29757AED00952280 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F926E03A29757AED00952280 /* WeatherManager.swift */; };
 		F926E0602976F1BB00952280 /* HourlyForecastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F926E05F2976F1BB00952280 /* HourlyForecastCell.swift */; };
+		F93451DE298A7D5400DB8B32 /* TemperatureBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F93451DD298A7D5400DB8B32 /* TemperatureBarView.xib */; };
+		F93451E0298A7D6800DB8B32 /* TemperatureBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93451DF298A7D6800DB8B32 /* TemperatureBarView.swift */; };
 		F94B07C22975555500FA70CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94B07C12975555500FA70CE /* AppDelegate.swift */; };
 		F94B07C42975555500FA70CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94B07C32975555500FA70CE /* SceneDelegate.swift */; };
 		F94B07C62975555500FA70CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94B07C52975555500FA70CE /* ViewController.swift */; };
@@ -30,6 +32,8 @@
 		F926E03A29757AED00952280 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 		F926E03C29757CB200952280 /* WeatherKitApp-Storyboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "WeatherKitApp-Storyboard.entitlements"; sourceTree = "<group>"; };
 		F926E05F2976F1BB00952280 /* HourlyForecastCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyForecastCell.swift; sourceTree = "<group>"; };
+		F93451DD298A7D5400DB8B32 /* TemperatureBarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TemperatureBarView.xib; sourceTree = "<group>"; };
+		F93451DF298A7D6800DB8B32 /* TemperatureBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureBarView.swift; sourceTree = "<group>"; };
 		F94B07BE2975555500FA70CE /* WeatherKitApp-Storyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WeatherKitApp-Storyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F94B07C12975555500FA70CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F94B07C32975555500FA70CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +90,7 @@
 		F94B07C02975555500FA70CE /* WeatherKitApp-Storyboard */ = {
 			isa = PBXGroup;
 			children = (
+				F9EF23C429891A3700E3ED89 /* TemperatureBar */,
 				F94B07C12975555500FA70CE /* AppDelegate.swift */,
 				F926E03C29757CB200952280 /* WeatherKitApp-Storyboard.entitlements */,
 				F94B07C32975555500FA70CE /* SceneDelegate.swift */,
@@ -129,6 +134,15 @@
 				F926E038297573DC00952280 /* LocationManager.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		F9EF23C429891A3700E3ED89 /* TemperatureBar */ = {
+			isa = PBXGroup;
+			children = (
+				F93451DD298A7D5400DB8B32 /* TemperatureBarView.xib */,
+				F93451DF298A7D6800DB8B32 /* TemperatureBarView.swift */,
+			);
+			path = TemperatureBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F94B07CE2975555600FA70CE /* LaunchScreen.storyboard in Resources */,
+				F93451DE298A7D5400DB8B32 /* TemperatureBarView.xib in Resources */,
 				F94B07CB2975555600FA70CE /* Assets.xcassets in Resources */,
 				F94B07C92975555500FA70CE /* Main.storyboard in Resources */,
 			);
@@ -203,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9D38F202978A832003EBC34 /* DoubleExtension.swift in Sources */,
+				F93451E0298A7D6800DB8B32 /* TemperatureBarView.swift in Sources */,
 				F9D38F1E2977165D003EBC34 /* HourlyForecast.swift in Sources */,
 				F926E039297573DC00952280 /* LocationManager.swift in Sources */,
 				F94B07C62975555500FA70CE /* ViewController.swift in Sources */,

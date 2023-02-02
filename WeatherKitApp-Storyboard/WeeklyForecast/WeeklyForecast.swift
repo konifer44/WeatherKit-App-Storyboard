@@ -54,7 +54,7 @@ class WeeklyForecastTableView: UITableView, UITableViewDelegate, UITableViewData
         }
         
         func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-            tableView.backgroundColor = .clear
+           
             let cell = tableView.dequeueReusableCell(withIdentifier: weeklyForecastCellIdentifier, for: indexPath) as! WeeklyForecastCell
             cell.backgroundColor = .clear
             if let weather {

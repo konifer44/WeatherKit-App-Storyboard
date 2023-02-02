@@ -23,6 +23,9 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var label: UILabel!
 
+    @IBOutlet weak var weeklyForecastTableView: WeeklyForecastTableView!
+    
+    
     var weather: Weather? {
         didSet {
             refreshData()
@@ -32,6 +35,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        weeklyForecastTableView.backgroundColor = .clear
         addNotificationObserver()
         getCityName()
         Task {
