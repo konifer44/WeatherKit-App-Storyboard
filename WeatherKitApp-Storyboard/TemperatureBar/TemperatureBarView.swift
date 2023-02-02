@@ -81,18 +81,14 @@ import UIKit
         gradientLayer.frame = backgroundFrame
         gradientLayer.colors = [UIColor.systemTeal.cgColor, UIColor.cyan.cgColor, UIColor.yellow.cgColor, UIColor.orange.cgColor]
         gradientLayer.cornerRadius = cornerRadius
+   
+        let maskShape = CAShapeLayer()
+        let maskFrame = CGRect(x: 0, y: 0, width: size, height: height)
+        let maskPath = UIBezierPath(roundedRect: maskFrame, cornerRadius: cornerRadius)
         
-        let barShape = CAShapeLayer()
-        let barFrame = CGRect(x: 0, y: 0, width: size, height: height)
-        let barPath = UIBezierPath(roundedRect: barFrame, cornerRadius: cornerRadius)
-        barShape.path = barPath.cgPath
-
-    
-        
-        let shapeMask = CAShapeLayer()
-        shapeMask.path = barShape.path
-        gradientLayer.mask = shapeMask
-        shapeMask.position = CGPoint(x: position, y: 0)
+        maskShape.path = maskPath.cgPath
+        gradientLayer.mask = maskShape
+        maskShape.position = CGPoint(x: position, y: 0)
         
         backgroundShape.addSublayer(gradientLayer)
         backgroundShape.position = CGPoint(x: 0, y: view.center.y)
