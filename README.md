@@ -13,7 +13,7 @@ Access to WeatherKit is included in the Apple Developer Program, which also prov
 >Due to expired access to WeatherKit UIKit version displays dummy data.
 SwiftUI is also more polished
 Check my [WeatherKitApp-SwiftUI](https://github.com/konifer44/WeatherKit-App-SwiftUI) version of this App :)!
-
+[Duck Duck Go](https://duckduckgo.com)
   <p align="center">
   <img src="iPhoneView.PNG" alt="drawing" width="600"/>
 </p>
