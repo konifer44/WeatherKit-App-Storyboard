@@ -10,8 +10,10 @@ Access to WeatherKit is included in the Apple Developer Program, which also prov
 </p>
 
 <h3>UIKit vs SwiftUI</h3>
->Due to expired access to WeatherKit UIKit version displays dummy data.
+Due to expired access to WeatherKit UIKit version displays dummy data.
+<br/>
 SwiftUI is also more polished
+<br/>
 Check my [WeatherKitApp-SwiftUI] version of this App :)!
 
   <p align="center">
