@@ -6,7 +6,7 @@ Access to WeatherKit is included in the Apple Developer Program, which also prov
 
  <h3>UI with Storyboard</h3>
   <p align="center">
-  <img src="mainStoryboard.PNG" alt="drawing" width="600"/>
+  <img src="mainStoryboard.png" alt="drawing" width="600"/>
 </p>
 
  <h3>Testing on device</h3>
@@ -17,7 +17,7 @@ Access to WeatherKit is included in the Apple Developer Program, which also prov
 
  <h3>Custom Temperature Bar View</h3>
   <p align="center">
-  <img src="barTesting.gif" alt="drawing" width="600"/>
+  <img src="barTesting.gif" alt="drawing" width="300"/>
   
   ```swift
 @IBDesignable class TemperatureBarView: UIView {
