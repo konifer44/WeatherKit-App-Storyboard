@@ -11,7 +11,7 @@ Access to WeatherKit is included in the Apple Developer Program, which also prov
 
  <h3>Testing on device</h3>
   <p align="center">
-  <img src="iPhoneView.PNG" alt="drawing" width="600"/>
+  <img src="iPhoneView.PNG" alt="drawing" width="300"/>
 </p>
 
 
@@ -94,8 +94,7 @@ Access to WeatherKit is included in the Apple Developer Program, which also prov
 </p>
 
 ## Tech
-  - SwiftUI
+  - UIKit
   - Core Location
-  - WidgetKit
   - WeatherKit
  
