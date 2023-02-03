@@ -25,7 +25,7 @@ Check my SwiftUI version of this App :)! https://github.com/konifer44/WeatherKit
   
     <p align="center">
   <img src="barTesting.gif" alt="drawing" width="300"/>
-  </p>
+</p>
   
   ```swift
 @IBDesignable class TemperatureBarView: UIView {
