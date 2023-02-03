@@ -99,7 +99,7 @@ Check my SwiftUI version of this App :)! https://github.com/konifer44/WeatherKit
     }
 }
 ```
-  
+</p>
 
 ## Tech
   - UIKit
