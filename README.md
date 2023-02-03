@@ -23,6 +23,10 @@ Check my SwiftUI version of this App :)! https://github.com/konifer44/WeatherKit
  <h3>Custom Temperature Bar View</h3>
  Creating and testing custom temperature bar view.
   
+    <p align="center">
+  <img src="barTesting.gif" alt="drawing" width="300"/>
+  </p>
+  
   ```swift
 @IBDesignable class TemperatureBarView: UIView {
     var view: UIView!
@@ -95,9 +99,7 @@ Check my SwiftUI version of this App :)! https://github.com/konifer44/WeatherKit
     }
 }
 ```
-  <p align="center">
-  <img src="barTesting.gif" alt="drawing" width="300"/>
-  </p>
+  
 
 ## Tech
   - UIKit
