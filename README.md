@@ -15,15 +15,15 @@ Due to expired access to WeatherKit UIKit version displays dummy data.<br\>
 SwiftUI version is also more polished.<br\>
 Check my SwiftUI version of this App :)! https://github.com/konifer44/WeatherKit-App-SwiftUI 
 
-  <p align="center">
+<p align="center">
   <img src="iPhoneView.PNG" alt="drawing" width="600"/>
 </p>
 
 
  <h3>Custom Temperature Bar View</h3>
- Creating and testing custom temperature bar view.
+ >Creating and testing custom temperature bar view.
   
-    <p align="center">
+<p align="center">
   <img src="barTesting.gif" alt="drawing" width="300"/>
 </p>
   
